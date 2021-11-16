@@ -291,7 +291,7 @@ Failures:
 
   2) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
      [31mFailure/Error: expect(page).to have_content user.introduction[0m
-     [31m  expected to find text "lqz2iyf06wqtnkd9skaq" in "Bookers\nHome Users Books Log out\n画像投稿フォーム\ntitle\nopinion\n投稿ユーザー画像：\ntitle：hwjum\nbody：66j7vpjtpqhh9r4i1msr\nユーザーネーム：cfskvxfyry\nEdit\n投稿ユーザー画像：\ntitle：ozbg1\nbody：k0lqfontk1fpwt7oxg5m\nユーザーネーム：qdqj7tf1xc\nEdit"[0m
+     [31m  expected to find text "tdmvket991ty5h36sr61" in "Bookers\nHome Users Books Log out\n画像投稿フォーム\ntitle\nopinion\n投稿ユーザー画像：\ntitle：avj8h\nbody：0ty6eldeh9s9gk54uct3\nユーザーネーム：dlnt5pv97w\nEdit\n投稿ユーザー画像：\ntitle：1hf4p\nbody：z5r722wkzcq54cg2y752\nユーザーネーム：s3lvukpg9o\nEdit"[0m
      [36m# ./spec/system/02_after_login_spec.rb:67:in `block (4 levels) in <main>'[0m
 
   3) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
@@ -301,7 +301,7 @@ Failures:
 
   4) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 「New book」と表示される
      [31mFailure/Error: expect(page).to have_content 'New book'[0m
-     [31m  expected to find text "New book" in "Bookers\nHome Users Books Log out\n画像投稿フォーム\ntitle\nopinion\n投稿ユーザー画像：\ntitle：7ipwu\nbody：judc9i4m1pjulxowgvsy\nユーザーネーム：ybtvmt56od\nEdit\n投稿ユーザー画像：\ntitle：i1bvw\nbody：39nzv7lgangxlouukbsq\nユーザーネーム：fw5ipl66ex\nEdit"[0m
+     [31m  expected to find text "New book" in "Bookers\nHome Users Books Log out\n画像投稿フォーム\ntitle\nopinion\n投稿ユーザー画像：\ntitle：t66ye\nbody：ccicti8m7eatkant8fcc\nユーザーネーム：jnc5fkkk2b\nEdit\n投稿ユーザー画像：\ntitle：as7h7\nbody：nsn3hz9vqi7gajmecgxi\nユーザーネーム：pwdod08gz7\nEdit"[0m
      [36m# ./spec/system/02_after_login_spec.rb:73:in `block (4 levels) in <main>'[0m
 
   5) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
@@ -340,12 +340,12 @@ Failures:
 
   8) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 「Book detail」と表示される
      [31mFailure/Error: expect(page).to have_content 'Book detail'[0m
-     [31m  expected to find text "Book detail" in "Bookers\nHome Users Books Log out\ntitle：5w466\nopinion：njk4cn74y3ytfl6cfgnp\nユーザーネーム：ai51nk2djl\n削除"[0m
+     [31m  expected to find text "Book detail" in "Bookers\nHome Users Books Log out\ntitle：3u3tk\nopinion：91v6uz73i09yd6x853gw\nユーザーネーム：bz3bhdqnyj\n削除"[0m
      [36m# ./spec/system/02_after_login_spec.rb:118:in `block (4 levels) in <main>'[0m
 
   9) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
      [31mFailure/Error: expect(page).to have_link book.user.name, href: user_path(book.user)[0m
-     [31m  expected to find link "9od4mzzhi9" with href "/users/2" but there were no matches[0m
+     [31m  expected to find link "wlmrhnf6ag" with href "/users/2" but there were no matches[0m
      [36m# ./spec/system/02_after_login_spec.rb:121:in `block (4 levels) in <main>'[0m
 
   10) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示される
@@ -360,7 +360,7 @@ Failures:
 
   12) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content user.introduction[0m
-      [31m  expected to find text "kdo1fpnhk0menf7c8wgw" in "Bookers\nHome Users Books Log out\ntitle：vel0p\nopinion：tne8gptplhdznos8jl2p\nユーザーネーム：4flb7lk2o1\n削除"[0m
+      [31m  expected to find text "e9dft5bd0mgdrksxqzbz" in "Bookers\nHome Users Books Log out\ntitle：2b5or\nopinion：pgjj9zgz922a0gk80pze\nユーザーネーム：inntkru6gz\n削除"[0m
       [36m# ./spec/system/02_after_login_spec.rb:140:in `block (4 levels) in <main>'[0m
 
   13) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
@@ -370,7 +370,7 @@ Failures:
 
   14) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 「New book」と表示される
       [31mFailure/Error: expect(page).to have_content 'New book'[0m
-      [31m  expected to find text "New book" in "Bookers\nHome Users Books Log out\ntitle：o0lds\nopinion：nbhu30zivza3nb939ghp\nユーザーネーム：5mtbhxbmm9\n削除"[0m
+      [31m  expected to find text "New book" in "Bookers\nHome Users Books Log out\ntitle：h5zon\nopinion：lv2uiid58hes7iw15e78\nユーザーネーム：enoohokb7d\n削除"[0m
       [36m# ./spec/system/02_after_login_spec.rb:146:in `block (4 levels) in <main>'[0m
 
   15) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 titleフォームが表示される
@@ -474,12 +474,12 @@ Failures:
 
   24) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 「Editing Book」と表示される
       [31mFailure/Error: expect(page).to have_content 'Editing Book'[0m
-      [31m  expected to find text "Editing Book" in "Bookers\nHome Users Books Log out\nTitle\nBody sp9fjoupxy9mrhkmovrz\nShow | Back"[0m
+      [31m  expected to find text "Editing Book" in "Bookers\nHome Users Books Log out\nTitle\nBody u1y3so248vz7nrbodxnq\nShow | Back"[0m
       [36m# ./spec/system/02_after_login_spec.rb:207:in `block (4 levels) in <main>'[0m
 
   25) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト リダイレクト先が、更新した投稿の詳細画面になっている
       [31mFailure/Error: expect(page).to have_content 'Book detail'[0m
-      [31m  expected to find text "Book detail" in "Bookers\nHome Users Books Log out\ntitle：xw29\nopinion：wed14dikzr7qh3gh733\nユーザーネーム：sz70eqgkpd\n削除"[0m
+      [31m  expected to find text "Book detail" in "Bookers\nHome Users Books Log out\ntitle：c79q\nopinion：03cory385ywmljr40sp\nユーザーネーム：1o33s9sw9q\n削除"[0m
       [36m# ./spec/system/02_after_login_spec.rb:243:in `block (4 levels) in <main>'[0m
 
   26) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人の画像が表示される: fallbackの画像がサイドバーの1つ＋一覧(2人)の2つの計3つ存在する
@@ -493,7 +493,7 @@ Failures:
 
   27) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人の名前がそれぞれ表示される
       [31mFailure/Error: expect(page).to have_content user.name[0m
-      [31m  expected to find text "ramujodnqs" in "Bookers\nHome Users Books Log out\nusers"[0m
+      [31m  expected to find text "k5qe1gw5jc" in "Bookers\nHome Users Books Log out\nusers"[0m
       [36m# ./spec/system/02_after_login_spec.rb:261:in `block (4 levels) in <main>'[0m
 
   28) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人のshowリンクがそれぞれ表示される
@@ -503,7 +503,7 @@ Failures:
 
   29) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content user.name[0m
-      [31m  expected to find text "70hzj4p15h" in "Bookers\nHome Users Books Log out\nusers"[0m
+      [31m  expected to find text "twhslk7hy8" in "Bookers\nHome Users Books Log out\nusers"[0m
       [36m# ./spec/system/02_after_login_spec.rb:272:in `block (4 levels) in <main>'[0m
 
   30) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
@@ -561,12 +561,12 @@ Failures:
 
   37) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content user.introduction[0m
-      [31m  expected to find text "wrb6zvspzubpu136a661" in "Bookers\nHome Users Books Log out\nk5v7hyly0s\nプロフィール編集\n投稿ユーザー画像：\ntitle：1tr7p\nbody：3yno6ixhpxlhwbkzwgow\nユーザーネーム：k5v7hyly0s"[0m
+      [31m  expected to find text "d43v31kihhqoqanwrjgm" in "Bookers\nHome Users Books Log out\nua3jki2wxa\nプロフィール編集\n投稿ユーザー画像：\ntitle：a94wn\nbody：yx2tvlbaz814cv9z2qai\nユーザーネーム：ua3jki2wxa"[0m
       [36m# ./spec/system/02_after_login_spec.rb:327:in `block (4 levels) in <main>'[0m
 
   38) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 「New book」と表示される
       [31mFailure/Error: expect(page).to have_content 'New book'[0m
-      [31m  expected to find text "New book" in "Bookers\nHome Users Books Log out\nb7pchc6805\nプロフィール編集\n投稿ユーザー画像：\ntitle：d1e80\nbody：o73zamw1k8n2bi6rxagj\nユーザーネーム：b7pchc6805"[0m
+      [31m  expected to find text "New book" in "Bookers\nHome Users Books Log out\nwayiymj2j7\nプロフィール編集\n投稿ユーザー画像：\ntitle：89eft\nbody：wcr44kmcg1s3e90a7mhi\nユーザーネーム：wayiymj2j7"[0m
       [36m# ./spec/system/02_after_login_spec.rb:333:in `block (4 levels) in <main>'[0m
 
   39) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 titleフォームが表示される
@@ -666,17 +666,17 @@ Failures:
 
   49) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザ新規登録成功時
       [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\nhpforoetg\nプロフィール編集"[0m
+      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\n6np0zvnmn\nプロフィール編集"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:19:in `block (3 levels) in <main>'[0m
 
   50) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログイン成功時
       [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\ngmcvy7nzi5\nプロフィール編集\n投稿ユーザー画像：\ntitle：cprpj\nbody：1qhufd8s68c522gn5wdl\nユーザーネーム：gmcvy7nzi5"[0m
+      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\n4981mp6mkg\nプロフィール編集\n投稿ユーザー画像：\ntitle：q0xgl\nbody：306tdm9qw6a99pfom36m\nユーザーネーム：4981mp6mkg"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:26:in `block (3 levels) in <main>'[0m
 
   51) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログアウト成功時
       [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers\nHome About Sign up Log in\nwelcome to Bookers !!\nIn Bookers,\nyou can share and exchange your opinions , inpressions , and emotions\nabout various books!\nLog in\nSign up"[0m
+      [31m  expected to find text "successfully" in "Bookers\nHome About Sign up Log in\nwelcome to Bookers !!\nIn Bookers, you can share and exchange your opinions , inpressions , and emotions about various books!\nLog in Sign up"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:36:in `block (3 levels) in <main>'[0m
 
   52) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザのプロフィール情報更新成功時
@@ -709,7 +709,7 @@ Failures:
 
   54) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時
       [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\ntitle：y4rin\nopinion：1cddapvhoy955suklvoi\nユーザーネーム：3pylgae150\n削除"[0m
+      [31m  expected to find text "successfully" in "Bookers\nHome Users Books Log out\ntitle：v7jf9\nopinion：riuszmkfjvf392pacpzy\nユーザーネーム：j1dfxs5q01\n削除"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:65:in `block (3 levels) in <main>'[0m
 
   55) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする 更新されない
@@ -799,22 +799,22 @@ Failures:
 
   61) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする エラーメッセージが表示される
       [31mFailure/Error: expect(page).to have_content 'error'[0m
-      [31m  expected to find text "error" in "Bookers\nHome Users Books Log out\n1件のエラーが発生しました Title can't be blank\nTitle\nBody 12xc765nrhy8rkym4jer\nShow | Back"[0m
+      [31m  expected to find text "error" in "Bookers\nHome Users Books Log out\n1件のエラーが発生しました Title can't be blank\nTitle\nBody 27522kp0k0z6fhsjo1bd\nShow | Back"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:171:in `block (4 levels) in <main>'[0m
 
   62) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 「Book detail」と表示される
       [31mFailure/Error: expect(page).to have_content 'Book detail'[0m
-      [31m  expected to find text "Book detail" in "Bookers\nHome Users Books Log out\ntitle：1h7lx\nopinion：7kvqjggjzgv4syanz5o5\nユーザーネーム：cxc01q8t3q"[0m
+      [31m  expected to find text "Book detail" in "Bookers\nHome Users Books Log out\ntitle：bh4qj\nopinion：7nojsak06cw466ux4qp5\nユーザーネーム：074uygag5t"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:223:in `block (5 levels) in <main>'[0m
 
   63) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
       [31mFailure/Error: expect(page).to have_link other_book.user.name, href: user_path(other_book.user)[0m
-      [31m  expected to find link "igg9b8pvbm" with href "/users/1" but there were no matches[0m
+      [31m  expected to find link "xnmpx3itso" with href "/users/1" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:226:in `block (5 levels) in <main>'[0m
 
   64) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content other_user.introduction[0m
-      [31m  expected to find text "wftnz261ymg7iy0zb03w" in "Bookers\nHome Users Books Log out\ntitle：zrftw\nopinion：5hzc8pbt8pdvqab6c0qa\nユーザーネーム：yfgxpu7heq"[0m
+      [31m  expected to find text "jojh3e0cw9crb8pqmi0j" in "Bookers\nHome Users Books Log out\ntitle：2wrbr\nopinion：2fvwuduhgnk491no9j0n\nユーザーネーム：27jjp4yfjf"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:245:in `block (5 levels) in <main>'[0m
 
   65) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
@@ -838,7 +838,7 @@ Failures:
 
   68) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
       [31mFailure/Error: expect(page).to have_content other_user.introduction[0m
-      [31m  expected to find text "d82gu4ob7qyroltes2bm" in "Bookers\nHome Users Books Log out\n9sotgwr6ys\n投稿ユーザー画像：\ntitle：9z68q\nbody：q4294ovqzwot4g8r21s5\nユーザーネーム：9sotgwr6ys"[0m
+      [31m  expected to find text "qxt81c3aytm25xqzmdb2" in "Bookers\nHome Users Books Log out\n10yy6oagzy\n投稿ユーザー画像：\ntitle：9yz35\nbody：z23o5xzynm1nd5syhp50\nユーザーネーム：10yy6oagzy"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:294:in `block (5 levels) in <main>'[0m
 
   69) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
@@ -905,7 +905,7 @@ Failures:
       [31m  expected to find css ".fas.fa-user-cog" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:443:in `block (4 levels) in <main>'[0m
 
-Finished in 14.96 seconds (files took 1.38 seconds to load)
+Finished in 14.71 seconds (files took 1.26 seconds to load)
 [31m198 examples, 80 failures[0m
 
 Failed examples:
